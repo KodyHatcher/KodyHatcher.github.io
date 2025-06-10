@@ -86,7 +86,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500 px-4 sm:px-6 md:px-8">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500">
       <DarkModeToggle />
 
       <nav className="flex flex-wrap justify-center gap-2 md:space-x-4 py-4 sticky top-0 bg-white dark:bg-gray-900 z-40 shadow">
