@@ -6,22 +6,24 @@ function About({ scrollToProjects, scrollToContact }) {
       <h1 className="text-5xl font-extrabold mb-8">About Me</h1>
 
       <p className="text-lg mb-6 leading-relaxed">
-        Hi! I’m Jane Doe, a passionate software developer with a love for
-        building beautiful and functional web applications. I enjoy working with
-        modern technologies and continuously learning new skills to improve my
-        craft.
+        Hi! I’m Kody Hatcher, a dedicated student at the University of Nebraska
+        at Omaha, currently pursuing a double major in Cybersecurity and
+        Artificial Intelligence with a minor in Computer Science. I'm passionate
+        about technology and driven to make a meaningful impact through
+        innovative software solutions.
       </p>
 
       <p className="text-lg mb-6 leading-relaxed">
-        With a background in computer science and several years of industry
-        experience, I specialize in front-end development, UI/UX design, and
-        creating responsive, accessible websites.
+        I’m currently working as a Software Development Intern at Catholic
+        Mutual Group, where I gain hands-on experience building and maintaining
+        real-world applications. My interests lie at the intersection of secure
+        systems and intelligent automation.
       </p>
 
       <p className="text-lg mb-6 leading-relaxed">
-        When I’m not coding, I enjoy hiking, photography, and exploring new
-        coffee shops. I believe in continuous growth, teamwork, and bringing
-        positive energy to every project I work on.
+        Outside of tech, I enjoy golfing, spending time with friends, and
+        finding new ways to challenge myself. I believe in collaboration,
+        curiosity, and bringing a positive mindset to every opportunity.
       </p>
 
       <div className="mt-8 flex justify-center space-x-6">
