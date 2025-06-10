@@ -38,7 +38,7 @@ function DarkModeToggle() {
   };
 
   return (
-    <div className="fixed top-4 right-4 z-50">
+    <div className="fixed top-4 right-4 z-50 sm:top-6 sm:right-6">
       <button
         onClick={toggleDarkMode}
         className={`relative w-16 h-8 rounded-full transition-colors duration-300 ${
@@ -86,10 +86,10 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500 px-4 sm:px-6 md:px-8">
       <DarkModeToggle />
 
-      <nav className="flex justify-center space-x-4 py-6 sticky top-0 bg-white dark:bg-gray-900 z-40 shadow">
+      <nav className="flex flex-wrap justify-center gap-2 md:space-x-4 py-4 sticky top-0 bg-white dark:bg-gray-900 z-40 shadow">
         <button
           onClick={scrollToHome}
           className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition"
