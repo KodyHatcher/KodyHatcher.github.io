@@ -38,28 +38,26 @@ function DarkModeToggle() {
   };
 
   return (
-    <div className="fixed top-4 right-4 z-50 sm:top-6 sm:right-6">
-      <button
-        onClick={toggleDarkMode}
-        className={`relative w-16 h-8 rounded-full transition-colors duration-300 ${
-          isDark ? "bg-indigo-700" : "bg-yellow-400"
-        }`}
+    <button
+      onClick={toggleDarkMode}
+      className={`relative w-16 h-8 rounded-full transition-colors duration-300 ${
+        isDark ? "bg-indigo-700" : "bg-yellow-400"
+      }`}
+    >
+      <span
+        className={`
+          absolute top-1 left-1 w-6 h-6 bg-white rounded-full shadow-md
+          flex items-center justify-center text-xs transition-transform duration-300
+          ${isDark ? "translate-x-8" : "translate-x-0"}
+        `}
       >
-        <span
-          className={`
-            absolute top-1 left-1 w-6 h-6 bg-white rounded-full shadow-md
-            flex items-center justify-center text-xs transition-transform duration-300
-            ${isDark ? "translate-x-8" : "translate-x-0"}
-          `}
-        >
-          {isDark ? (
-            <FaMoon className="text-indigo-700" />
-          ) : (
-            <FaSun className="text-yellow-500" />
-          )}
-        </span>
-      </button>
-    </div>
+        {isDark ? (
+          <FaMoon className="text-indigo-700" />
+        ) : (
+          <FaSun className="text-yellow-500" />
+        )}
+      </span>
+    </button>
   );
 }
 
@@ -87,8 +85,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500">
-      <DarkModeToggle />
-
       <nav className="flex flex-wrap justify-center gap-2 md:space-x-4 py-4 sticky top-0 bg-white dark:bg-gray-900 z-40 shadow">
         <button
           onClick={scrollToHome}
@@ -122,6 +118,9 @@ function App() {
         >
           Resume
         </a>
+
+        {/* Add Dark Mode Toggle here */}
+        <DarkModeToggle />
       </nav>
 
       <section ref={homeRef} className="scroll-mt-24">
