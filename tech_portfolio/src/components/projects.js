@@ -57,7 +57,7 @@ function Projects() {
                   {description}
                 </p>
                 <p className="text-sm font-medium text-indigo-600 dark:text-indigo-400 mb-4">
-                  Tech used: {tech.join(", ")}
+                  Tech Stack: {tech.join(", ")}
                 </p>
               </div>
 
