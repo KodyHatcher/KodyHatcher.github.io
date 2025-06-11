@@ -65,10 +65,10 @@ function Projects() {
                 href={demo}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-auto inline-flex items-center justify-center gap-2 text-center bg-indigo-600 text-white font-semibold py-2 px-4 rounded hover:bg-indigo-700 transition-colors duration-300"
+                className="bg-indigo-600 text-white font-semibold text-sm px-4 py-2 rounded-full shadow-lg hover:scale-105 hover:bg-indigo-700 transition transform duration-300 inline-flex items-center"
                 onClick={(e) => e.stopPropagation()}
               >
-                Live Demo <FaExternalLinkAlt />
+                Live Demo <FaExternalLinkAlt className="ml-1" />
               </a>
             </motion.div>
           ))}

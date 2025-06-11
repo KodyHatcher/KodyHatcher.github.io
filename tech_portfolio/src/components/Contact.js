@@ -132,8 +132,7 @@ function Contact() {
               <button
                 type="submit"
                 disabled={state.submitting}
-                className="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-shadow duration-300 shadow-md
-                  disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 hover:scale-105 duration-300 ease-in-out shadow-md transform disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {state.submitting ? "Sending..." : "Send Message"}
               </button>
