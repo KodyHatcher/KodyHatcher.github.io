@@ -66,7 +66,4 @@ const project_list = [
   },
 ];
 
-("Figure out the MainProject and if its worth adding");
-("Same for Next Gen Reader or not since it uses mongoDB ");
-
 export default project_list;
