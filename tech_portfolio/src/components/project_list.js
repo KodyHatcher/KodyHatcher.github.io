@@ -1,7 +1,7 @@
 const project_list = [
   {
     id: 1,
-    title: "CallSync Scheduler",
+    title: "Call Transcript Event Generator",
     description:
       "A React app that trasncribes a phone call and schedules and event",
     tech: ["React", "Python", "Flask", "JavaScript", "TailwindCSS", "OpenAI"],
@@ -17,32 +17,56 @@ const project_list = [
   },
   {
     id: 3,
-    title: "Test Project",
+    title: "Automated Messaging System for Daycare",
     description: "This is a test project",
     tech: ["React", "JavaScript"],
     demo: "https://www.google.com/",
   },
   {
     id: 4,
-    title: "Test Project",
+    title: "Immunization Tracker",
     description: "This is a test project",
     tech: ["React", "JavaScript"],
     demo: "https://www.google.com/",
   },
   {
     id: 5,
-    title: "Test Project",
+    title: "Automated gmail Response System",
     description: "This is a test project",
     tech: ["React", "JavaScript"],
     demo: "https://www.google.com/",
   },
   {
     id: 6,
-    title: "Test Project",
+    title: "Automated Backup",
     description: "This is a test project",
     tech: ["React", "JavaScript"],
     demo: "https://www.google.com/",
   },
+  {
+    id: 7,
+    title: "Notification Reminder",
+    description: "This is a test project",
+    tech: ["React", "JavaScript"],
+    demo: "https://www.google.com/",
+  },
+  {
+    id: 8,
+    title: "Automatically Rename Scanned Files",
+    description: "This is a test project",
+    tech: ["React", "JavaScript"],
+    demo: "https://www.google.com/",
+  },
+  {
+    id: 9,
+    title: "",
+    description: "Phone Call Agent",
+    tech: ["React", "JavaScript"],
+    demo: "https://www.google.com/",
+  },
 ];
+
+("Figure out the MainProject and if its worth adding");
+("Same for Next Gen Reader or not since it uses mongoDB ");
 
 export default project_list;
