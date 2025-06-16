@@ -59,8 +59,8 @@ const project_list = [
   },
   {
     id: 9,
-    title: "",
-    description: "Phone Call Agent",
+    title: "Phone Call Agent",
+    description: "This is a test project",
     tech: ["React", "JavaScript"],
     demo: "https://www.google.com/",
   },
