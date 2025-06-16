@@ -5,7 +5,7 @@ import { User, Mail, FolderGit2 } from "lucide-react";
 function About({ scrollToProjects, scrollToContact }) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 text-gray-900 dark:text-white px-6 py-20">
-      {/* About Box with animated gradient background */}
+      {/* About Box */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
