@@ -32,8 +32,8 @@ function About({ scrollToProjects, scrollToContact }) {
         </p>
 
         <p className="text-lg mb-6 leading-relaxed">
-          Outside of tech, I enjoy <strong>golfing</strong>, spending time with
-          friends, and pushing myself with new challenges. I believe in
+          Outside of technology, I enjoy <strong>golfing</strong>, spending time
+          with friends, and pushing myself with new challenges. I believe in
           teamwork, curiosity, and staying optimistic no matter the obstacle.
         </p>
 
