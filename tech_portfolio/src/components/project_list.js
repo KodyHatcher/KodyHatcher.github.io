@@ -94,7 +94,7 @@ const project_list = [
     id: 9,
     title: "Phone Call Agent",
     description:
-      "An AI-powered virtual phone agent that acts like a secretary—making outbound calls, asking predefined questions, interpreting responses, and seamlessly continuing the conversation or redirecting the caller as needed. Designed to automate routine phone interactions.",
+      "An AI-powered virtual phone agent that acts like a secretary — making outbound calls, asking predefined questions, interpreting responses, and seamlessly continuing the conversation or redirecting the caller as needed. Designed to automate routine phone interactions.",
     tech: ["Python", "OpenAI", "Twilio", "PostgreSQL", "Flask", "Ngrok"],
     demo: "https://www.google.com/",
   },
