@@ -60,7 +60,8 @@ function Home({ scrollToProjects }) {
 
         {/* Right: Image */}
         <motion.img
-          src="/image.jpeg"
+          //src="/image.jpeg"
+          src="Headshot.png"
           alt="Filler"
           className="rounded-xl shadow-2xl max-w-full w-full sm:w-[400px] lg:w-[500px] h-auto"
           variants={itemVariants}
