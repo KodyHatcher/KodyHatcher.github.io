@@ -63,7 +63,7 @@ function Home({ scrollToProjects }) {
           //src="/image.jpeg"
           src="Headshot.png"
           alt="Filler"
-          className="rounded-xl shadow-2xl max-w-full w-full sm:w-[400px] lg:w-[500px] h-auto"
+          className="rounded-xl shadow-2xl max-w-full w-full sm:w-[300px] lg:w-[400px] h-auto"
           variants={itemVariants}
           whileHover={{ scale: 1.02 }}
           transition={{ type: "spring", stiffness: 50 }}
