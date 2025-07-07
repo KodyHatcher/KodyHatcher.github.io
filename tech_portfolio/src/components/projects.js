@@ -61,7 +61,7 @@ function Projects() {
                 </p>
               </div>
 
-              <a
+              {/* <a
                 href={demo}
                 target="_blank"
                 rel="noreferrer"
@@ -69,7 +69,7 @@ function Projects() {
                 onClick={(e) => e.stopPropagation()}
               >
                 Live Demo <FaExternalLinkAlt className="ml-1" />
-              </a>
+              </a> */}
             </motion.div>
           ))}
         </motion.div>
