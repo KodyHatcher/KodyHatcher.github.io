@@ -29,7 +29,7 @@ function Projects() {
             },
           }}
         >
-          {project_list.map(({ id, title, description, tech, demo }) => (
+          {project_list.map(({ id, title, description, tech, disclaimer }) => (
             <motion.div
               key={id}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex flex-col justify-between cursor-pointer"
