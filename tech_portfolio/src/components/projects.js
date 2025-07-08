@@ -62,7 +62,7 @@ function Projects() {
               </div>
 
               <div className="bg-indigo-600 text-white font-semibold text-sm px-4 py-2 rounded-full shadow-lg inline-flex items-center">
-                {demo}
+                {disclaimer}
               </div>
             </motion.div>
           ))}

@@ -15,7 +15,8 @@ const project_list = [
       "PostgreSQL",
       "Google Calendar",
     ],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 2,
@@ -33,7 +34,8 @@ const project_list = [
       "PostgreSQL",
       "Twilio",
     ],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 3,
@@ -48,7 +50,8 @@ const project_list = [
       "PostgreSQL",
       "Twilio",
     ],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 4,
@@ -56,7 +59,8 @@ const project_list = [
     description:
       "A lightweight tool for daycares that tracks each child's immunization history and ensures compliance with vaccination schedules. Automatically sends email reminders to parents about upcoming or missed immunizations.",
     tech: ["Python", "Google Sheets"],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 5,
@@ -64,7 +68,8 @@ const project_list = [
     description:
       "A smart email assistant that monitors your Gmail inbox and automatically responds to messages based on customizable rules and AI-driven logic. Ideal for reducing response time and handling routine inquiries efficiently.",
     tech: ["Python", "OpenAI", "Gmail"],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 6,
@@ -72,7 +77,8 @@ const project_list = [
     description:
       "A simple yet powerful Python script that automates file backups from any source directory to a specified destination. Ideal for ensuring data safety with minimal manual effort.",
     tech: ["Python"],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 7,
@@ -80,7 +86,8 @@ const project_list = [
     description:
       "A notification system that lets you log events in a Google Sheet and automatically sends timely reminders based on your preferred schedule. Perfect for keeping track of tasks, appointments, or deadlines.",
     tech: ["AWS", "Python", "Google Sheets"],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 8,
@@ -88,7 +95,8 @@ const project_list = [
     description:
       "A Python-based automation tool that monitors a folder for newly scanned files and intelligently renames them based on their content using AI. Ideal for organizing documents without manual effort.",
     tech: ["Python", "OpenAI", "AWS", "PostgreSQL"],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 9,
@@ -96,7 +104,8 @@ const project_list = [
     description:
       "An AI-powered virtual phone agent that acts like a secretary — making outbound calls, asking predefined questions, interpreting responses, and seamlessly continuing the conversation or redirecting the caller as needed. Designed to automate routine phone interactions.",
     tech: ["Python", "OpenAI", "Twilio", "PostgreSQL", "Flask", "Ngrok"],
-    demo: "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
+    disclaimer:
+      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
 ];
 
