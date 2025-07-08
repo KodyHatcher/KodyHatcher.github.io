@@ -61,15 +61,9 @@ function Projects() {
                 </p>
               </div>
 
-              {/* <a
-                href={demo}
-                target="_blank"
-                rel="noreferrer"
-                className="bg-indigo-600 text-white font-semibold text-sm px-4 py-2 rounded-full shadow-lg hover:scale-105 hover:bg-indigo-700 transition transform duration-300 inline-flex items-center"
-                onClick={(e) => e.stopPropagation()}
-              >
+              <div className="bg-indigo-600 text-white font-semibold text-sm px-4 py-2 rounded-full shadow-lg inline-flex items-center">
                 Live Demo <FaExternalLinkAlt className="ml-1" />
-              </a> */}
+              </div>
             </motion.div>
           ))}
         </motion.div>
