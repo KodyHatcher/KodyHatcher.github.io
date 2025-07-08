@@ -19,7 +19,7 @@ function Projects() {
           className="flex flex-col space-y-10"
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={{
             hidden: {},
             show: {
