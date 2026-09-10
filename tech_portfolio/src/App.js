@@ -495,13 +495,12 @@ function ProjectDialog({ project, onClose }) {
             </div>
             <span>Status</span>
             <p>
-              <Check /> Production / Private
+              <Check /> Private Repository
             </p>
           </div>
         </div>
         <div className="dialog-footer">
-          Repository and demonstration withheld to protect live operational
-          systems.
+          Repository and demonstration withheld to protect live systems.
         </div>
       </motion.article>
     </motion.div>

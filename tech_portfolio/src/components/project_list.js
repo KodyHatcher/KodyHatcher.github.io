@@ -5,8 +5,6 @@ const project_list = [
     description:
       "Built a secure construction management platform around the work crews already do each day. Teams can sign in, organize projects and tasks, attach jobsite images, and generate estimates with AI. The project record and the work surrounding it stay together in one place.",
     tech: ["React", "JavaScript", "Python", "PostgreSQL", "OpenAI"],
-    disclaimer:
-      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 2,
@@ -24,8 +22,6 @@ const project_list = [
       "PostgreSQL",
       "Twilio",
     ],
-    disclaimer:
-      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 3,
@@ -40,8 +36,6 @@ const project_list = [
       "PostgreSQL",
       "Twilio",
     ],
-    disclaimer:
-      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
   {
     id: 1,
@@ -59,8 +53,6 @@ const project_list = [
       "PostgreSQL",
       "Google Calendar",
     ],
-    disclaimer:
-      "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
 ];
 
