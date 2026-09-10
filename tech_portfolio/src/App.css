@@ -1,4 +1,5 @@
 :root{--ink:#11110f;--paper:#efeee8;--blue:#173cff;--navy:#233e68;--rule:#c4c2ba;--muted:#66655f;--ease:cubic-bezier(.16,1,.3,1)}
+.wordmark:after{display:none}
 body{background:var(--paper);color:var(--ink)}a{color:inherit}.svg-defs{position:absolute;width:0;height:0;overflow:hidden}.locked{overflow:hidden}
 
 /* Global navigation and progress */
