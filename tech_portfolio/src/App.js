@@ -19,10 +19,10 @@ import projectList from "./components/project_list";
 import "./App.css";
 
 const fields = {
+  10: "Construction software",
   1: "Voice intelligence",
   2: "Conversational systems",
   3: "Message intelligence",
-  9: "Autonomous voice",
 };
 const projects = projectList.map((project, index) => ({
   ...project,
@@ -442,16 +442,6 @@ function Projects({ onSelect }) {
           </motion.button>
         ))}
       </div>
-      <motion.p
-        className="project-footnote"
-        initial={{ opacity: 0, y: 12 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-      >
-        All listed projects are production systems. Public demos and
-        repositories are unavailable where client or operational privacy
-        applies.
-      </motion.p>
     </section>
   );
 }
