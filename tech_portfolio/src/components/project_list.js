@@ -102,11 +102,11 @@ const project_list = [
     id: 9,
     title: "Phone Call Agent",
     description:
-      "An AI-powered virtual phone agent that acts like a secretary — making outbound calls, asking predefined questions, interpreting responses, and seamlessly continuing the conversation or redirecting the caller as needed. Designed to automate routine phone interactions.",
+      "An AI-powered virtual phone agent that acts like a secretary. It places outbound calls and asks predefined questions, then interprets each response to decide what should happen next. The agent can continue the conversation or redirect the caller when needed. It was designed to handle routine phone interactions without adding more manual work.",
     tech: ["Python", "OpenAI", "Twilio", "PostgreSQL", "Flask", "Ngrok"],
     disclaimer:
       "Disclaimer: Demo and repository are not publicly available, as this project is currently in use as a production service.",
   },
 ];
 
-export default project_list;
+export default project_list.filter(({ id }) => ![4, 5, 6, 7, 8].includes(id));
